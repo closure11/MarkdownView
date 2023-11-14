@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.author        = { "keitaoouchi" => "keita.oouchi@gmail.com" }
   s.source        = { :git => "https://github.com/keitaoouchi/MarkdownView.git", :tag => "#{s.version}" }
   s.source_files  = [
-    "Sources/MarkdownView/MarkdownView.swift",
-    "Sources/MarkdownView/MarkdownUI.swift",
+    "Sources/MarkdownView/MarkdownView.swift"
   ]
   s.resource_bundles = {
     'MarkdownView' => [
@@ -19,6 +18,6 @@ Pod::Spec.new do |s|
     ]
   }
   s.frameworks    = "Foundation"
-  s.ios.deployment_target = "13.0"
+  s.ios.deployment_target = "12.0"
   s.swift_version = '5.2'
 end
